@@ -4,7 +4,7 @@ sudo apt-get install python3.6 unzip
 #pip
 sudo apt install python3-pip
 #git
-sudo apt-get install git
+sudo apt-get install git golang
 #vscode
 sudo snap install --classic code
 #docker

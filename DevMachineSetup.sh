@@ -1,12 +1,11 @@
 #!/bin/bash
+sudo apt-get update
 #python
 sudo apt-get install python3.6 unzip
 #pip
 sudo apt install python3-pip
 #git
-sudo apt-get install git golang
-#vscode
-sudo snap install --classic code
+sudo apt-get install git golang jq
 #docker
 sudo apt-get install \
     apt-transport-https \
@@ -33,4 +32,8 @@ unzip awscliv2.zip
 sudo ./aws/install
 #PreCommit
 pip install pre-commit
+#vscode
+echo "Press Enter to install vscode or ctrl+c to exit" 
+read 
+sudo snap install --classic code
 
